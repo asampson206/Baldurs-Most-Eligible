@@ -2,15 +2,24 @@
         [
             {
                 "Name": "Astarion",
-                "Race": "High Elf"
-                
+                "Race": "High Elf",
+                "Voice Actor": "Neil Newbon",
+                "Character inspiration": "Exacting revenge on the vampire, Cazador, who turned him and tortured him",
+                "Romantic Quote": "I am also worried about me, but I seem to somehow be worried about you more. You are giving me something to care for, and that is worth the peril."
+            
             },
             {
                 "Name": "Karlach",
-                "Race": " Tiefling"
+                "Race": " Tiefling",
+                "Voice Actor": "Samantha Beart",
+                "Character inspiration": "Living life to the fullest and avoiding returning to Zariel.",
+                "Romantic Quote": "You know I would not have bothered falling in love with you if I would have known saying goodbye would be so hard. If I had my choice, we would do it all together. Life, a long life, and then we would slip away one night side by side, wrinkled and grey, warm in our bed, but that is not in the stars for us my love. Ours is a short story with a few good twists and a banger of an ending."
             },
             {
                 "Name": "ShadowHeart",
-                "Race": "High Elf"
+                "Race": "High Elf",
+                "Voice Actor": " Jennifer English",
+                "Character inspiration": "Follower of Shar, devouted to returning a relic of immense power to her Coven",
+                "Romantic Quote": "No notes! You have exceeded my every expectation. Even if I could have done this alone, I do not think I would have wanted to"
             }
         ]}
