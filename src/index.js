@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client';
-import Home from './Home'
+import Home from './App'
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Routes from './Routes';
 

@@ -1,4 +1,4 @@
-import Home from "./Home";
+import Home from "./App";
 import Shadowheart from "./Shadowheart";
 import Karlach from "./Karlach";
 import Astarion from "./Astarion";
