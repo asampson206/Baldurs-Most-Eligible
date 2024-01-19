@@ -8,7 +8,7 @@ const Routes = [
     {path: "/",
       element: <Home />,
       errorElement: <ErrorPage /> },
-      {path: "/Karlach/:id",
+      {path: "/Karlach",
       element: <Karlach  />,
       errorElement: <ErrorPage /> },
       {path: "/Astarion",
