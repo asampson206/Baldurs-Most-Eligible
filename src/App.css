@@ -10,10 +10,15 @@
     text-align: center;
 }
 
-.div{
-    background-color: brown;
-}
+
 
 .text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.navbar{
+    display: table;
+    margin: 0 auto;
+}
+
+
