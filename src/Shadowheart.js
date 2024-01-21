@@ -24,10 +24,11 @@ function Shadowheart() {
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <header>
           <img className="img" src="https://www.dexerto.com/cdn-cgi/image/width=750,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/11/10/Shadowheart-Baldurs-Gate-3-Official-Artwork-Artifact.jpg"/>
-          <h1 className="quoteTrial">{quote}</h1>
-        <Navbar/>
+          <h1 className="text">{quote}</h1>
+        
         </header>
         <h1 className="text">This is the Shadowheart page</h1>
+        <Navbar/>
         <Button/>
       </div>
     );

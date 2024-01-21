@@ -25,10 +25,11 @@ function Astarion() {
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <header>
           <img className="img"src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/baldurs-gate-3/d/d4/Astarion.jpg?width=1600"/>
-          <h1 className="quoteTrial">{quote}</h1>
-        <Navbar/>
+          <h1 className="text">{quote}</h1>
+        
         </header>
         <h1 className="text">This is the Astarion page</h1>
+        <Navbar/>
         <Button/>
       </div>
     );
