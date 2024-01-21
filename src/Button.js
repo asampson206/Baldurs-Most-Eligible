@@ -22,7 +22,7 @@ function Button() {
   return (
     <div>
      
-      <button onClick={handleButtonClick}>Show Result</button>
+      <button className="button" onClick={handleButtonClick}>Show Result</button>
     </div>
   )
 }
