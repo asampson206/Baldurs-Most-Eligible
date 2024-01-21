@@ -1,20 +1,33 @@
+import React, { useState, useEffect, useRef } from 'react';
 import Navbar from './Navbar';
-import "./Karlach"
-import React, { useState, useEffect } from "react";
-
+import RomanticQuote from './Quote';
 
 function Karlach() {
+  const [quote, setQuote] = useState("");
 
-    return (
-      <div>
-        <header>
-          <img className="img" src="https://dotesports.com/wp-content/uploads/2023/08/karlach-in-bg3.jpg"/>
-        
+  useEffect(() => {
+    fetch('http://localhost:3000/ships')
+      .then(response => response.json())
+      .then(data => {
+        const firstShip = data[1];
+        const romanticQuote = firstShip["Romantic Quote"];
+        setQuote(romanticQuote);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  }, []);
+
+  return (
+    <div>
+      <header>
+        <img className="img" src="https://dotesports.com/wp-content/uploads/2023/08/karlach-in-bg3.jpg" alt="Karlach"/>
+        <h1 className="quoteTrial">{quote}</h1>
         <Navbar/>
-        </header>
-        <h1 className="text">This is Karlach, former Right Hand of Avernus (the Devil), avid dancer, and a Tiefling warrior</h1>
-      </div>
-    );
-  }
-  
-  export default Karlach;
+      </header>
+      <h1 className="text">This is Karlach, former Right Hand of Avernus (the Devil), avid dancer, and a Tiefling warrior</h1>
+    </div>
+  );
+}
+
+export default Karlach;
