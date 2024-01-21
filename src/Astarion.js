@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import "./Astarion.css"
 import React, { useState, useEffect } from "react";
 import RomanticQuote from './Quote';
+import Button from './Button B';
 
 function Astarion() {
   const [quote, setQuote] = useState("");
@@ -21,13 +22,14 @@ function Astarion() {
 
 
     return (
-      <div>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <header>
           <img className="img"src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/baldurs-gate-3/d/d4/Astarion.jpg?width=1600"/>
           <h1 className="quoteTrial">{quote}</h1>
         <Navbar/>
         </header>
         <h1 className="text">This is the Astarion page</h1>
+        <Button/>
       </div>
     );
   }
