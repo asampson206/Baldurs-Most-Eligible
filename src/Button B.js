@@ -22,7 +22,7 @@ function Button() {
   return (
     <div>
      
-      <button onClick={handleButtonClick}>Show Result</button>
+      <button onClick={handleButtonClick}>Astarion?</button>
     </div>
   )
 }
