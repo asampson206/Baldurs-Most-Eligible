@@ -1,7 +1,6 @@
 import Navbar from './Navbar'
 import "./Astarion.css"
 import React, { useState, useEffect } from "react"
-import RomanticQuote from './Quote'
 import Button from './Button B'
 
 function Astarion() {
