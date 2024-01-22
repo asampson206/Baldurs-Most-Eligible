@@ -4,23 +4,17 @@ function CommentSection() {
   const [comments, setComments] = useState([])
   const [inputValue, setInputValue] = useState('')
 
-  
   useEffect(() => {
-    fetchComments()
+    const storedComments = localStorage.getItem('comments')
+    if (storedComments) {
+      setComments(JSON.parse(storedComments))
+    }
   }, [])
 
-  
-  const fetchComments = async () => {
-    try {
-      const response = await fetch('http://localhost:3000/ships')
-      const jsonData = await response.json()
-      setComments(jsonData.ships || [])
-    } catch (error) {
-      console.error(error)
-    }
-  }
+  useEffect(() => {
+    localStorage.setItem('comments', JSON.stringify(comments))
+  }, [comments])
 
- 
   const handleSubmit = async (e) => {
     e.preventDefault()
 
@@ -36,7 +30,7 @@ function CommentSection() {
       if (response.ok) {
         setInputValue('')
         const newComment = { Name: 'Anonymous', text: inputValue }
-        setComments([...comments, newComment])
+        setComments(prevComments => [...prevComments, newComment])
       } else {
         console.error('Failed to submit comment')
       }
@@ -70,3 +64,4 @@ function CommentSection() {
 }
 
 export default CommentSection
+
