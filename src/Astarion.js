@@ -28,7 +28,7 @@ function Astarion() {
           <h1 className="text">{quote}</h1>
         
         </header>
-        <h1 className="text">This is the Astarion page</h1>
+        <h1 className="text">Astarion. The cynic, the thief, the vampire. He voices his constant disapproval of altruistic actions and controlling individuals and treasures his personal freedom. Born a High Elf, he hates the Vampire, Cazador, who turned and tortured him for hundreds of years. My girlfriend's favorite male character but does he hold up in my eyes?</h1>
         <Navbar/>
         <Button/>
       </div>

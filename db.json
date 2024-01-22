@@ -1,27 +1,76 @@
-{ "ships":
-        [
-            {
-                "Name": "Astarion",
-                "Race": "High Elf",
-                "Voice Actor": "Neil Newbon",
-                "Character inspiration": "Exacting revenge on the vampire, Cazador, who turned him and tortured him",
-                "Romantic Quote": "\"I am also worried about me, but I seem to somehow be worried about you more. You are giving me something to care for, and that is worth the peril.\" - Astarion",
-                "Result": "Unfortunately Astarion is not my choice, continue you on to see who Is!"
-            },
-            {
-                "Name": "Karlach",
-                "Race": " Tiefling",
-                "Voice Actor": "Samantha Beart",
-                "Character inspiration": "Living life to the fullest and avoiding returning to Zariel, home of the devil, Avernus.",
-                "Romantic Quote": "\"You know I would not have bothered falling in love with you if I would have known saying goodbye would be so hard. If I had my choice, we would do it all together. Life, a long life, and then we would slip away one night side by side, wrinkled and grey, warm in our bed, but that is not in the stars for us, my love. Ours is a short story with a few good twists and a banger of an ending.\" - Karlach",
-                "Result": "Correct! I would never turn down an 8 foot tall woman with an axe and a romantic side!!"
-            },
-            {
-                "Name": "ShadowHeart",
-                "Race": "High Elf",
-                "Voice Actor": " Jennifer English",
-                "Character inspiration": "Follower of the Goddess, Shar, and devouted to returning a relic of immense power to her Coven",
-                "Romantic Quote": "\"No notes! You have exceeded my every expectation. Even if I could have done this alone, I do not think I would have wanted to\" - Shadowheart",
-                "Result": "Close! Shadowheart's vulgar and beautiful but there is one even better!"
-            }
-        ]}
+{
+  "ships": [
+    {
+      "Name": "Astarion",
+      "Race": "High Elf",
+      "Voice Actor": "Neil Newbon",
+      "Character inspiration": "Exacting revenge on the vampire, Cazador, who turned him and tortured him",
+      "Romantic Quote": "\"I am also worried about me, but I seem to somehow be worried about you more. You are giving me something to care for, and that is worth the peril.\" - Astarion",
+      "Result": "Unfortunately Astarion is not my choice, continue you on to see who Is!"
+    },
+    {
+      "Name": "Karlach",
+      "Race": " Tiefling",
+      "Voice Actor": "Samantha Beart",
+      "Character inspiration": "Living life to the fullest and avoiding returning to Zariel, home of the devil, Avernus.",
+      "Romantic Quote": "\"You know I would not have bothered falling in love with you if I would have known saying goodbye would be so hard. If I had my choice, we would do it all together. Life, a long life, and then we would slip away one night side by side, wrinkled and grey, warm in our bed, but that is not in the stars for us, my love. Ours is a short story with a few good twists and a banger of an ending.\" - Karlach",
+      "Result": "Correct! I would never turn down an 8 foot tall woman with an axe and a romantic side!!"
+    },
+    {
+      "Name": "ShadowHeart",
+      "Race": "High Elf",
+      "Voice Actor": " Jennifer English",
+      "Character inspiration": "Follower of the Goddess, Shar, and devouted to returning a relic of immense power to her Coven",
+      "Romantic Quote": "\"No notes! You have exceeded my every expectation. Even if I could have done this alone, I do not think I would have wanted to\" - Shadowheart",
+      "Result": "Not Quite! But, I'd let her hold a knife to my throat."
+    },
+    {
+      "id": "87a0",
+      "text": "h"
+    },
+    {
+      "id": "b4b2",
+      "text": "hello"
+    },
+    {
+      "id": "41e3",
+      "text": "hhee"
+    },
+    {
+      "id": "8eee",
+      "text": "l"
+    },
+    {
+      "id": "c302",
+      "text": "l"
+    },
+    {
+      "id": "517c",
+      "text": "l"
+    },
+    {
+      "id": "3c82",
+      "text": "dol"
+    },
+    {
+      "id": "4433",
+      "text": "slo"
+    },
+    {
+      "id": "02b2",
+      "text": "idk I woulda chose karlach"
+    },
+    {
+      "id": "2f3a",
+      "text": "Pick Karlach or die "
+    },
+    {
+      "id": "a703",
+      "text": "Pick Karlach or die "
+    },
+    {
+      "id": "b638",
+      "text": "pick karlach"
+    }
+  ]
+}
