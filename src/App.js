@@ -1,8 +1,5 @@
 import React from 'react'
 import Navbar from './Navbar';
-import Shadowheart from './Shadowheart';
-import Karlach from './Karlach';
-import Astarion from './Astarion';
 import "./App.css"
 import CommentSection from './CommentSection';
 
