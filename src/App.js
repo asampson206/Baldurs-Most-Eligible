@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar';
+import Navbar from './Navbar'
 import "./App.css"
-import CommentSection from './CommentSection';
+import CommentSection from './CommentSection'
 
 function Home() {
   return (

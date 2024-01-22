@@ -10,6 +10,6 @@ export default function ErrorPage() {
         <Navbar />
       </header>
       <main>
-        <h1>Whoops! Something went wrong.</h1>
+        <h1>Well that's not it...</h1>
       </main>
     </>)}

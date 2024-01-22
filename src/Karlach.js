@@ -1,23 +1,23 @@
-import React, { useState, useEffect, useRef } from 'react';
-import Navbar from './Navbar';
-import Button from './Button';
-import RomanticQuote from './Quote';
+import React, { useState, useEffect, useRef } from 'react'
+import Navbar from './Navbar'
+import Button from './Button'
+import RomanticQuote from './Quote'
 
 function Karlach() {
-  const [quote, setQuote] = useState("");
+  const [quote, setQuote] = useState("")
 
   useEffect(() => {
     fetch('http://localhost:3000/ships')
       .then(response => response.json())
       .then(data => {
-        const firstShip = data[1];
-        const romanticQuote = firstShip["Romantic Quote"];
-        setQuote(romanticQuote);
+        const firstShip = data[1]
+        const romanticQuote = firstShip["Romantic Quote"]
+        setQuote(romanticQuote)
       })
       .catch(error => {
-        console.error('Error:', error);
-      });
-  }, []);
+        console.error('Error:', error)
+      })
+  }, [])
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -31,7 +31,7 @@ function Karlach() {
       <Button className="button"/>
     </div>
     
-  );
+  )
 }
 
-export default Karlach;
+export default Karlach
