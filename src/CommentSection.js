@@ -31,7 +31,7 @@ function CommentSection() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ text: inputValue }),
-      });
+      })
 
       if (response.ok) {
         setInputValue('')
