@@ -1,23 +1,22 @@
-import Navbar from './Navbar';
-import React, { useState, useEffect } from "react";
-import RomanticQuote from './Quote';
-import Button from './Button C';
+import Navbar from './Navbar'
+import React, { useState, useEffect } from "react"
+import Button from './Button C'
 
 function Shadowheart() {
-  const [quote, setQuote] = useState("");
+  const [quote, setQuote] = useState("")
 
   useEffect(() => {
     fetch('http://localhost:3000/ships')
       .then(response => response.json())
       .then(data => {
-        const firstShip = data[2];
-        const romanticQuote = firstShip["Romantic Quote"];
-        setQuote(romanticQuote);
+        const firstShip = data[2]
+        const romanticQuote = firstShip["Romantic Quote"]
+        setQuote(romanticQuote)
       })
       .catch(error => {
-        console.error('Error:', error);
-      });
-  }, []);
+        console.error('Error:', error)
+      })
+  }, [])
   
 
     return (
@@ -31,7 +30,7 @@ function Shadowheart() {
         <Navbar/>
         <Button/>
       </div>
-    );
+    )
   }
   
-  export default Shadowheart;
+  export default Shadowheart

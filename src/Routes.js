@@ -1,8 +1,8 @@
-import Home from "./App";
-import Shadowheart from "./Shadowheart";
-import Karlach from "./Karlach";
-import Astarion from "./Astarion";
-import ErrorPage from "./ErrorPage";
+import Home from "./App"
+import Shadowheart from "./Shadowheart"
+import Karlach from "./Karlach"
+import Astarion from "./Astarion"
+import ErrorPage from "./ErrorPage"
 
 const Routes = [
     {path: "/",
@@ -19,6 +19,6 @@ const Routes = [
       errorElement: <ErrorPage /> },
       
      
-    ];
+    ]
   
-  export default Routes;
+  export default Routes

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 function RomanticQuote({ quote }) {
-  return <h1>{quote}</h1>;
+  return <h1>{quote}</h1>
 }
 
-export default RomanticQuote;
+export default RomanticQuote

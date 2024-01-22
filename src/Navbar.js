@@ -1,6 +1,5 @@
 
-import { NavLink } from "react-router-dom";
-// import "./NavBar.css";
+import { NavLink } from "react-router-dom"
 
 function Navbar(){
   const linkStyle = {
@@ -8,7 +7,7 @@ function Navbar(){
     color: 'black',
     display: "block"
     
-  };
+  }
 return(
     <nav className="navbar">
     <NavLink
@@ -40,14 +39,6 @@ return(
     </nav>
 )
 }
-
-
-
-
-
-
-
-
 
 
 
