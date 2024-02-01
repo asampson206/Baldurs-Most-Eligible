@@ -22,7 +22,7 @@ function Button() {
   return (
     <div>
      
-      <button onClick={handleButtonClick}>The dark beauty?</button>
+      <button onClick={handleButtonClick}>The Dark devotee?</button>
     </div>
   )
 }

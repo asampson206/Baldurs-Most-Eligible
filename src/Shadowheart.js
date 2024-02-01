@@ -26,7 +26,7 @@ function Shadowheart() {
           <h1 className="text">{quote}</h1>
         
         </header>
-        <h1 className="text">Right out the gate (get it? Baldur's Gate?) Shadowheart comes with a hidden agenda. She is a devout priestess of the dark Goddess, Shar, whose assignments are normally quite deadly. Despite being so devout, she is quite mischievious and adventurous. So, did Shadowheart succeed in putting a hand on my heart and a dagger in my back?   </h1>
+        <h1 className="text"> </h1>
         <Navbar/>
         <Button/>
       </div>

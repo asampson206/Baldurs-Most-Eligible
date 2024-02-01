@@ -2,14 +2,17 @@
 import { NavLink } from "react-router-dom"
 
 function Navbar(){
+  const navStyle = {
+    display: "flex",
+    justifyContent: 'center'
+    
+  }
   const linkStyle = {
     margin: "1rem",
     color: 'black',
-    display: "block"
-    
-  }
+  display: 'block'}
 return(
-    <nav className="navbar">
+    <nav style={navStyle}>
     <NavLink
         to="/"
         className="nav-link"

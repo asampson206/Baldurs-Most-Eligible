@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 
 function Button() {
-  const [result, setResult] = useState('')
+  const [result, setResult] = useState(' ')
 
   useEffect(() => {
     fetch('http://localhost:3000/ships')
@@ -22,7 +22,7 @@ function Button() {
   return (
     <div>
      
-      <button className="button" onClick={handleButtonClick}>Fiery Karlach?</button>
+      <button className="button" onClick={handleButtonClick}>The Dancing Warrior?</button>
     </div>
   )
 }
